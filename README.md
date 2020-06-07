@@ -31,3 +31,4 @@ Fizemos o push da imagem da aplicacao no dockerhub, por isso alteramos no docker
 
 Mas temos q lembrar q antes de fazer o upload para o dockerhub, foi feito o build local da imagem da aplicação...
 
+.
