@@ -11,8 +11,8 @@ services:
       - ./volume_mysql:/var/lib/mysql
 
   web:
-    image: aplicacao-loja:v1
+    image: claytonnog/aplicacao-loja:v1
     ports:
-      - 8090:80
-    depends_on: 
+      - 8050:80
+    depends_on:
       - db
